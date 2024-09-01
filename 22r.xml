@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Frankenstein</title>
+        <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+        <editor corresp="#PBS">Percy Bysshe Shelley</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>University of Antwerp</publisher>
+        <date>8 December 2023</date>
+        <availability>
+          <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
+            <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Draft of Frankenstein, [August or September] – [?December] 1816. | Bodleian MS. 
+          Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+          bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+          (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+          from the beginning to the end of Volume I, concluding just as the Creature is 
+          about to begin his tale to Victor. </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="page" n="22v" rend="recto">
+        <pb facs="#p22r"/>
+        <metamark function="pagenumber"><num><hi rend="circled">77</hi></num></metamark>
+      <p>
+         to change and I thought that I held <lb/>
+         the corpse of my dead mother in my arms 
+          <del type="overwritten" hand="#MWS" rend="blackink">,</del>
+          <add place="infralinear" hand="#MWS" rend="blackink">:</add>
+        <lb/>
+        
+          <del type="overwritten" hand="#MWS" rend="blackink">a</del> 
+          <add place="inline" hand="#MWS" rend="blackink">A</add>
+          shroud envolepped her form &amp; I saw 
+        <lb/>
+        the grave worms crawling in the folds of<lb/>
+        the flannel; I started 
+          <add place="infralinear" hand="#MWS" rend="blackink"><metamark></metamark></add>
+          <note>'^' is used as metamark, close visual resemblance</note>
+          <add place="supralinear" hand="#MWS" rend="blackink">from my sleep</add>
+          with horror, a
+        <lb/>
+        <del type="crossedOut" hand="#MWS" rend="blackink">when I saw</del>
+          cold dew covered my forehead
+        <lb/>
+        my teeth 
+          <del type="crossedOut" hand="#MWS" rend="blackink">ah</del>
+          chattered and every limb
+        <lb/>
+        
+          <del type="crossedOut" hand="#MWS" rend="blackink">was</del>
+          <add place="supralinear" hand="#MWS" rend="blackink">became</add>
+          convul
+          <del type="overwritten" hand="#MWS" rend="blackink"><!-- unclear char --></del>
+          <add place="inline" hand="#MWS" rend="blackink">s</add>
+          ed, when, by the dim and
+        <lb/>
+        yellow light of the moon as it forced<lb/>
+        its way through the window shutters, I<lb/>
+        beheld the wretch — the miserable<lb/>
+        monster whom I had created;
+          <add place="infralinear" hand="#MWS" rend="blackink"><metamark>-</metamark>
+            <note>'-'is used as metamark, a thick line is used</note>
+          </add>
+          he hel
+          <del type="overwritten" hand="#MWS" rend="blackink"><!-- unclear char --></del>
+          <add place="inline" hand="#MWS" rend="blackink">d</add>
+        <lb/>
+        up the curtain, 
+          <add place="infralinear" hand="#MWS" rend="blackink"><metamark>-</metamark>
+            <note>'-'is used as metamark, a thick line is used</note>
+          </add>
+          and his eyes; if eyes
+        <lb/>
+        they may be called, were fixed on me – His<lb/>
+        <add place="marginleft" hand="#PBS" rend="blackink">inarticulate</add>jaws opened and he muttered <add place="supralinear" hand="#PBS" rend="blackink">in</add> some <del type="crossedOut" hand="#MWS" rend="blackink">words</del><lb/>
+        <add place="marginleft" hand="#PBS" rend="blackink">sounds</add>while a grin wrinkled his cheeks. He<lb/>
+        he might have spoken but I did not<lb/>
+        hear — one <choice><sic>had</sic><corr>hand</corr></choice> was stretched out<lb/>
+        to detain me but I escaped and <del type="crossedOut" hand="#PBS" rend="blackink">ran</del><lb/>
+        rushed down <del type="crossedOut" hand="#PBS" rend="blackink"><add place="supralinear" hand="#PBS" rend="blackink">the</add></del> stairs I took refuge in<lb/>
+        a court-yard belonging to the house<lb/>
+        which I inhabited; where I remained<lb/>
+        <add place="marginleft" hand="#PBS" rend="blackink">during</add>the rest of the night walking up and<lb/>
+        down in the greatest agitation; listen<lb/>
+        ing attentively, catching and fearing each<lb/>
+        sound as if it were to announce the<lb/>
+        arrival of the demoniacal corpse to<lb/>
+        which I had so miserabl<del type="overwritten" hand="#PBS" rend="blackink">e</del><add place="inline" hand="#PBS" rend="blackink">y</add> given life.<lb/>
+        Oh! no mortal could support <lb/>
+        the horror of that countenance.a<lb/>
+        mummy
+        <metamark>&#8257;</metamark>
+        <add place="margintop" hand="#MWS" rend="blackink">again</add>
+        endued with 
+        <del type="crossedOut" hand="#MWS" rend="blackink">life</del>
+        <add place="supralinear" hand="#MWS" rend="blackink">animation</add> 
+          could not be<lb/>
+      </p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Frankenstein</title>
+        <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+        <editor corresp="#PBS">Percy Bysshe Shelley</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>University of Antwerp</publisher>
+        <date>8 December 2023</date>
+        <availability>
+          <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
+            <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Draft of Frankenstein, [August or September] – [?December] 1816. | Bodleian MS. 
+          Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+          bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+          (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+          from the beginning to the end of Volume I, concluding just as the Creature is 
+          about to begin his tale to Victor. </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="page" n="22v" rend="verso">
+        <pb facs="#p22v"/>
+        <metamark function="pagenumber"><num><hi rend="circled">78</hi></num></metamark>
+        <p>
+        so hideous as <hi rend="underline">He</hi>... I had gazed on him<lb/>
+        while unfinished; <del rend="crossedOut">and I thought</del> he<lb/>
+        was ugly then. But when those muscles<lb/>
+        and joints were endued with motion<lb/>
+        it became a thing <del rend="crossedOut">to</del> such as even Dante<lb/>
+        could never have conceived.<lb/></p>
+        <p>I passed the night wretchedly–<lb/>
+          sometimes my pulses beat so quickly and<lb/>
+          ha<add place="supralinear" hand="#MWS">r</add>dly that I felt the palpitation of<lb/>
+          every artery: at others I nearly sunk<lb/>
+        to the ground <del rend="crossedOut">with</del>
+          <add place="above">thro</add> languor and ex-<lb/>
+          treme weakness.<del rend="crossedOut" hand="#PBS">Surely so wretched a</del><lb/>
+          <add place="marginleft" hand="#PBS">X<lb/>
+            and mingled<lb/>
+            with this hor<lb/>
+            ror I felt the<lb/>
+            bitterness of<lb/>
+            <del rend="crossedOut">disapp</del><lb/>
+            disappoint<lb/>
+            ment:<lb/></add>
+          <del rend="crossedOut" hand="#PBS">creature as I never before existed.</del><lb/>
+          Dreams that had been my food and<lb/>
+          rest for so long a space were now<lb/>
+          become a hell to me– <del rend="crossedOut">I</del> and the<lb/>
+          change was so rapid, the overthrow<lb/>
+        so complete.</p>
+        <p>Morning — dismal and wet — at leng <del rend="overwritten">ht</del>th<lb/>
+          dawned, and <del rend="crossedOut">to</del> discovered to my sleepless<lb/>
+          and aching eyes the <unclear reason="ink blot">church</unclear> of Ingols-<lb/>
+        stadt its white steeple &amp; <add place="supralinear" hand="#PBS"><del
+              rend="crossedOut">the</del></add>clock<add place="supralinear" hand="#PBS"
+                >its</add>" which<lb/>
+          pointed to the sixth<del rend="crossedOut">e</del> hour. The porter<lb/>
+          opened the gates of the court which had<lb/>
+          that night been my assylum and I<lb/>
+        issued into the streets, pacing<add place="supralinear" hand="#PBS">them</add>
+          with<lb/>
+          quick steps as if I <del rend="crossedOut">ough</del> sought to<lb/>
+        <add place="left_margin" hand="#PBS">avoid</add>the wretch whom I feared every
+          turn-<lb/>
+          ing in the street would present to<lb/></p></div>
+    </body>
+  </text>
+</TEI>

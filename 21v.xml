@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Frankenstein</title>
+                <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+                <editor corresp="#PBS">Percy Bysshe Shelley</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>University of Antwerp</publisher>
+                <date>8 December 2023</date>
+                <availability>
+                    <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
+                        <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Draft of Frankenstein, [August or September] – [?December] 1816. | Bodleian MS. 
+                    Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+                    bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+                    (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+                    from the beginning to the end of Volume I, concluding just as the Creature is 
+                    about to begin his tale to Victor. </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page" n="21v" rend="verso">
+            <pb facs="#p21v"/>
+            <metamark function="pagenumber"><num><hi rend="circled">76</hi></num></metamark>
+            <p>his shrivelled complexion and strait<lb/>
+                black lips.<lb/></p> 
+            <p style="text-indent:20px">The different accidents of life are<lb/>
+                not so changeable at the feelings of hu<lb/>
+                man nature. I had worked hard for<lb/>
+                nearly two years for the sole purpose<lb/>
+                of infusing <del type="crossedOut" hand="#MWS" rend="blackink">f</del> into an inanimate<lb/>
+                body. For this I had deprived myself of<lb/>
+                rest and <del type="crossedOut" hand="#MWS" rend="blackink">heath</del> health. I had desired<lb/>
+                it with an ardour that far exceeded<lb/>
+                moderation; but now that I had succeed<lb/>
+                ed these dreams vanished and breathless<lb/>
+                horror and disgust filled my heart.<lb/> 
+                Unable<add place="supralinear" hand="#MWS" rend="blackink">to endure</add> the aspect of the <del type="crossedOut" hand="#MWS" rend="blackink">creature</del><add place="margintop" hand="#MWS" rend="blackink">being</add> I<lb/>
+                had created, I rushed out of the room and<lb/>
+                <del type="crossedOut" hand="#MWS" rend="blackink">remained</del><add place="supralinear" hand="#MWS" rend="blackink">continued</add> a long time traversing my<lb/>
+                bed chamber unable to compose my<lb/>
+                mind to sleep. At length <del type="crossedOut" hand="#MWS" rend="blackink">s</del> I assitude<lb/>
+                succeeded to the tumult I had before<lb/>
+                endured, and I threw myself on my<lb/>
+                bed in my clothes endeavouring to seek<lb/>
+                a <del type="crossedOut" hand="#MWS" rend="blackink">feew</del> few moments of forgetfullness.<lb/> 
+               But it was in vain; I slept indeed but<lb/>
+                I was disturbed by the wildest dreams-<lb/>
+                I saw Elizabeth<add place="supralinear" hand="#MWS" rend="blackink">in the bloom of health</add> walking in the streets of<lb/>
+                Ingolstadt; delighted &amp; surprised I embraced<lb/>
+                her but as I imprinted the first kiss<lb/>
+                on her lips they became lurid with<lb/>
+                the hue of death; her features appeared<lb/></p></div>
+        </body>
+    </text>
+</TEI>

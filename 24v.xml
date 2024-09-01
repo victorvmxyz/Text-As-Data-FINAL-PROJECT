@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Frankenstein</title>
+            <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+            <editor corresp="#PBS">Percy Bysshe Shelley</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp</publisher>
+            <date>8 December 2023</date>
+            <availability>
+               <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
+                  <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Draft of Frankenstein, [August or September] – [?December] 1816. | Bodleian MS. 
+               Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+               bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+               (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+               from the beginning to the end of Volume I, concluding just as the Creature is 
+               about to begin his tale to Victor.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="page" n="24v" rend="verso">
+            <pb facs="#p24v"/>
+            <metamark function="pagenumber"><num><hi rend="circled">82</hi></num></metamark>
+         <p>
+            "see; but I hope, I sincerely hope all those<lb/>
+            "occupations are at an end—I am free<lb/>
+            "now I hope."<lb/>
+            I trembled excessively: I could not<lb/>
+            bear to think of, &amp; far less to allude<lb/>
+            to the occurences of the prece<del type="crossedOut">e</del>ding<lb/>
+            night. <del type="crossedOut">I continued to walk there</del> I<lb/>
+            walked therefore with a quick pace,<lb/>
+            and we soon arrived at my colledge.<lb/>
+            I then reflected–and the thought made<lb/>
+            me shiver that the creature whom<lb/>
+            I had left in my appartment might<lb/>
+            be still there—alive and walking<lb/>
+            about. I dreaded to see him but I<lb/>
+            dreaded still more that Henry should<lb/>
+            behold the monst<del type="crossedOut">h</del>er.<del type="crossedOut">I therefore</del><lb/>
+            entreat<del type="crossedOut">ed</del><add>ing</add> him <add place="supralinear">therefore</add> to remain a few<lb/>
+            minutes at the bottom of the<lb/>
+            stairs, <del type="crossedOut">while</del>I darted upwards<lb/>
+            my own room. My hand was already<lb/>
+            on the lock before I recovered<lb/>
+            myself, when I paused and a cold<lb/>
+            shivering came over me. I threw<lb/>
+            the door open as children are accus<lb/>
+            tomed to do when they expect<lb/>
+            a spectre to stand in waiting for<lb/>
+            them on the other side. But<lb/>
+            nothing appeared. I stepped fearfully<lb/>
+            in–the appartment was empty, and<lb/>
+            my bedroon was also freed from its<lb/>
+            hideous guest. I could hardly <del type="crossedOut">belief</del><lb/>
+         </p></div>
+      </body>
+  </text>
+</TEI>

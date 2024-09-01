@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Frankenstein</title>
+            <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+            <editor corresp="#PBS">Percy Bysshe Shelley</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp</publisher>
+            <date>8 December 2023</date>
+            <availability>
+               <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
+                  <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Draft of Frankenstein, [August or September] – [?December] 1816. | Bodleian MS. 
+               Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+               bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+               (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+               from the beginning to the end of Volume I, concluding just as the Creature is 
+               about to begin his tale to Victor. </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="page" n="23r" rend="recto">
+            <pb facs="#p23r"/>
+                   
+            <metamark function="pagenumber"><num><hi rend="circled">79</hi></num></metamark>
+            <p>
+               my view. I did not dare <del type="crossedOut" hand="#MWS" rend="blackink">to</del> return<lb/>
+               to the appartment <add place="supralinear" hand="#MWS" rend="blackink">which</add> I inhabited but<lb/>
+               felt impelled to hurry on although<lb/>
+               wetted by the <del type="crossedOut" hand="#MWS" rend="blackink">drizzling</del> rain which poured<lb/>
+               from a black and comfortless sky.<lb/>
+            </p>
+            <p>
+               I continued walking in this manner <lb/>
+               for some time endeavouring by bodily<lb/>
+               excercise to ease the load that weighed<lb/>
+               upon my mind. I traversed the streets<lb/>
+               without any clear conception of where<lb/>
+               I was or what I was doing: my heart<lb/>
+               palpitated <del type="crossedOut" hand="#PBS" rend="blackink">with</del><add place="supralinear" hand="#PBS" rend="blackink">in the sickness of</add> fear and I hurried<lb/>
+               on with irregular steps not daring<lb/>
+               to look about me,<lb/>
+            </p>
+            <list><item>"Like one who on a lon<del type="crossedOut" hand="#MWS" rend="blackink">s</del>esome road</item>
+            <item>"and having once turned round</item>
+               <item rend="right"><add place="supralinear" hand="#MWS" rend="blackink">walks on</add></item>
+               <item><del type="crossedOut" hand="#MWS" rend="blackink">wal</del>And turns no more his head</item>
+            <item>Because he knows a frightful</item>
+            <item rend="right">fiend</item>
+               <item>"doth close behind hum tread."*<add place="marginleft" hand="#MS" rend="blackink">*Coleridge's<lb/>"Ancient Mariner.'</add></item></list>
+            <p>
+               Continueing thus, I came at lenght<lb/>
+               <del type="crossedOut" hand="#PBS" rend="blackink">opposite</del><add place="supralinear" hand="#MWS" rend="blackink">opposite to</add> the Inn at which the dili<lb/>
+               -gences and carriages usually stopped. Here<lb/>
+               I paused I knew not why but remained<lb/>
+               some minutes with my eyes fixed on<lb/>
+               a coach that was coming towards me<lb/>
+               from the other end of the street.<lb/>
+               As <del type="crossedOut" hand="#MWS" rend="blackink">I</del><add place="supralinear" hand="#MWS" rend="blackink">it</add> drew nearer I observed that it<lb/>
+               was the Swiss diligence; it stopped<lb/>
+               just where I was standing, and on<lb/>
+               
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

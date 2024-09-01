@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Frankenstein</title>
+            <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+            <editor corresp="#PBS">Percy Bysshe Shelley</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp</publisher>
+            <date>8 December 2023</date>
+            <availability>
+               <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
+                  <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Draft of Frankenstein, [August or September] – [?December] 1816. | Bodleian MS. 
+               Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+               bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+               (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+               from the beginning to the end of Volume I, concluding just as the Creature is 
+               about to begin his tale to Victor.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="page" n="25r" rend="recto">
+            <pb facs="#p25r"/>
+            <metamark function="pagenumber"><num><hi rend="circled">83</hi></num></metamark>
+            <p>
+               <l>believe that so great a good fortune</l>
+               <l>could have befallen me; but when</l>
+               <l>I 
+                   <del type="crossedOut" hand="#PBS" rend="black ink">was</del>
+                   <add hand="#PBS" place="supralinear">became</add>
+                   assured that my enemy had</l>
+               <l>indeed fled, I clapped my hands for</l>
+               <l>joy and ran down to Henry.</l>
+               <l><hi rend="indented">We ascended into my room &amp; present</hi></l>
+               <l>ly the servant brought breakfast:</l>
+               <l>but I was unable to contain my-</l>
+               <l>self. It was not joy only that possess-</l>
+               <l>-ed me,–I felt my flesh tingle with</l>
+               <l>the excess of sensitiveness and my</l>
+               <l>pulse beat rapidly. I was unable to</l>
+               <l>remain for a single instant in</l>
+               <l>the same place — I jumped over</l>
+               <l>the chairs, clapped my hand<add hand="#MWS" place="intralinear">s</add> &amp; laughed</l>
+               <l>aloud. Clerval at first attributed</l>
+               <l>my unusual spirits to joy
+                  <del type="crossedOut" hand="#MWS" rend="black ink">at</del>
+                  <add hand="#MWS" place="supralinear">on</add>
+                  his</l>
+               <l>arrival– but when <del type="crossedOut" hand="#MWS" rend="black ink">saw</del> he observed</l>
+               <l>me <add hand="#PBS" place="inline" rend="black ink"><metamark>^</metamark></add>
+                     <add hand="#PBS" place="supralinear">more attentively</add>
+                     he saw a wildness in my eyes for</l>
+               <l>which he could not account and</l>
+               <l>my loud unrestrained heartless laugh</l>
+               <l>-ter frightened and astonished him.</l>
+               <l><hi rend="indented">My dear Frankenstein," cried he "What</hi></l>
+               <l>for God's sake is the matter <del type="crossedOut" hand="#MWS" rend="black ink">for</del> do not</l>
+               <l>laugh so – <del type="crossedOut" hand="#MWS" rend="black ink">What has</del> How ill you are!</l>
+               <l>What is the cause of all this?</l>
+               <l><hi rend="indented">Do not ask me cried I, putting my</hi></l>
+               <l>hands <del type="crossedOut" hand="#MWS" rend="black ink">fef</del> before my eyes, for I thought</l>
+               <l>I saw <hi rend="u">the spectre</hi> glide into the</l>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,54 @@
+body {
+
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    text-indent: 10px;
+}
+
+.row {
+    width: 100%;
+    margin-left: 0;
+}
+
+.col {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.marginAdd {
+    display: none;
+}
+
+.mirador-canvas-nav {
+    display: none !important;
+}
+
+.superscript {
+    position: relative;
+    font-size: smaller;
+    vertical-align: super;
+    text-decoration: underline;
+}
+
+.page-number {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    border: 2px black;
+    border-radius: 50%;
+    font-size: larger;
+}
+
+
+

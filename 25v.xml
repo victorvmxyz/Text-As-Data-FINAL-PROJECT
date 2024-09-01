@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Frankenstein</title>
+            <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+            <editor corresp="#PBS">Percy Bysshe Shelley</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp</publisher>
+            <date>8 December 2023</date>
+            <availability>
+               <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
+                  <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Draft of Frankenstein, [August or September] – [?December] 1816. | Bodleian MS. 
+               Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+               bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+               (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+               from the beginning to the end of Volume I, concluding just as the Creature is 
+               about to begin his tale to Victor.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="page" n="25v" rend="recto">
+            <pb facs="#p25v"/>
+               <metamark function="pagenumber"><num><hi rend="circled">84</hi></num></metamark>
+            <p>
+               room - <del type="crossedOut" hand="#MWS" rend="blackink">Wh</del> He can tell! Oh save me<lb/>
+               save <del type="crossedOut" hand="#MWS" rend="blackink">I</del> me"- I imagined that the<lb/>
+               monster seized me I struggled furious<lb/>
+               ly &amp; fell down in a fit<lb/>
+               
+            </p>
+            <p>
+               Poor Clerval! What must have been<lb/>
+               his feelings. A <del type="crossedOut" hand="#MWS" rend="blackink">joy meti</del> meeting which<lb/>
+               he had anticipated with such joy so<lb/>
+               strangely turned to bitterness. But I<lb/>
+               did not witness his grief for I was<lb/>
+               <del type="crossedOut" hand="#MWS" rend="blackink">senseless</del><add place="supralinear" hand="#MWS" rend="blackink">lifeless</add> and did not recover my<lb/>
+               senses for <del type="crossedOut" hand="#MWS" rend="blackink">several</del> a long, long time.<lb/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Frankenstein</title>
+        <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+        <editor corresp="#PBS">Percy Bysshe Shelley</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>University of Antwerp</publisher>
+        <date>8 December 2023</date>
+        <availability>
+          <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
+            <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Draft of Frankenstein, [August or September] – [?December] 1816. | Bodleian MS. 
+          Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+          bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+          (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+          from the beginning to the end of Volume I, concluding just as the Creature is 
+          about to begin his tale to Victor.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="page" n="23v" rend="verso">
+        <pb facs="#p23v"/>
+        <metamark function="pagenumber"><num><hi rend="circled">80</hi></num></metamark>
+        <p>
+        <l>the doors being opened <unclear reason="ink blot">I</unclear> perceived Henry</l> 
+        <l>Clerval, who on <del type="crossedOut"/><unclear/>seeing me instantly sprung out.</l>
+      </p>
+      <p>
+        <l rend="indent"> "My dear Frankenstein," exclaimed he.</l>
+        <l>"How glad I am to see you; how</l>
+        <l>"fortunate <add place="supralinear">that</add> you should be here at</l>
+        <l>"the <add place="sublinear"><metamark function="insert">^</metamark></add>
+          <add place="supralinear">very</add> moment of my alighting"</l>
+      </p>
+      <p>
+        <l rend="indent">Nothing could equal my delight</l>
+        <l>on <del rend="crossedOut">see</del><choice><sic>seing</sic><corr>seeing</corr></choice> Clerval: his presence</l>
+        <l>brought back to my thoughts my fa-</l>
+        <l>ther, Elizabeth and all those scenes</l>
+        <l>of home so dear to my recollection.</l>
+        <l>I grasped his hand, and in a moment</l>
+        <l>forgot my horror and misfortune</l>
+        <l>I felt <add place="sublinear"><metamark function= "insert">^</metamark></add><add place="supralinear"> suddenly,<unclear reason="handwriting"> and</unclear></add> for the first time 
+          <del rend="crossedOut">for</del><add place="supralinear">during</add></l>
+        <l>many months, calm and serene</l>
+        <l>joy. I welcomed my friend therefore</l>
+        <l>in the most cordial manner &amp;</l>
+        <l>we walked towards my colledge.</l>
+        <l>Clerval <del rend="crossedOut">ran on</del><del rend="crossedOut"> talked</del> continued</l>
+        <l>talking for some time about <del rend="crossedOut">my</del><add place="supralinear">our mutual</add></l>
+        <l>friends and his <add place="supralinear">own</add> good fortune in</l>
+        <l>being allowed to come Ingolstadt.</l>
+      </p>
+      <p> 
+        <l>"You may believe", said he, "<del rend="crossedOut">that</del></l>
+        <l>"it was not with<del rend="crossedOut">out</del>considerable</l>
+        <l>"trouble that I persuaded my</l>
+        <l>"father that it is not absolutely</l>
+        <l>"necessary for a merchant to</l>
+        <l>"know nothing except bookeeping</l>
+      </p>
+      </div>                    
+    </body>
+  </text>
+</TEI>

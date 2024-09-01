@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Frankenstein</title>
+            <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+            <editor corresp="#PBS">Percy Bysshe Shelley</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp</publisher>
+            <date>8 December 2023</date>
+            <availability>
+               <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
+                  <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Draft of Frankenstein, [August or September] – [?December] 1816. | Bodleian MS. 
+               Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+               bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+               (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+               from the beginning to the end of Volume I, concluding just as the Creature is 
+               about to begin his tale to Victor.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="page" n="24r" rend="recto">
+            <pb facs="#p24r"/>
+               <metamark function="pagenumber"><num><hi rend="circled">81</hi></num></metamark>
+            <p>
+               "and Indeed I believe I left him<lb/>
+               "incredulous to the last for his con<lb/>
+               "stant answer to my applications<lb/>
+               "was the same as <add place="supralinear" hand="#MWS" rend="blackink">that of</add> the dutch school<lb/>
+               "master in the Vicar of Wakefield-<lb/>
+               <add place="marginleft" hand="#MWS" rend="blackink">"<del type="crossedOut" hand="#MWS" rend="blackink">a year</del> with<lb/>"out greek -I<lb/>"eat heartily<lb/>withoug greek<lb/>of-</add>
+               <del type="crossedOut" hand="#MWS" rend="blackink">"I live very well yet I do not know</del><lb/>
+               <del type="crossedOut" hand="#MWS" rend="blackink">"Greek</del>" I have ten thousand florins-<lb/>
+               "But his affection for me at<lb/>
+               "lenght overcame his dislike for<lb/>
+               "learning, and he permitted me<lb/>
+               "to <add place="supralinear" hand="#PBS" rend="blackink">under</add>take a voyage <add place="supralinear" hand="#PBS" rend="blackink">of discovery</add> to the land of<lb/>
+               "knowledge."<lb/>
+            </p>
+            <p>
+               "And my father, brothers &amp; Eliza<lb/>
+               beth" said I<lb/>
+               "Very well &amp; very happy" replied<lb/>
+               he "only a little uneasy that <del type="crossedOut" hand="#MWS" rend="blackink">yo</del><lb/>
+               "they hear from you so seldom, &amp;<lb/>
+               "by the bye, I mean to lecture you<lb/>
+               "a little upon their account<lb/>
+               "myself- But my dear Frankenstein"<lb/>
+               continued he stopping short &amp; gazing<lb/>
+               "full in my face "I did not before<lb/>
+               "remark how very ill you are. So thin<lb/>
+               "and pale; you appear as if you had<lb/>
+               "been watching for several nights."<lb/>
+               "You have guessed right" I replied<lb/>
+               "I have lately been so engaged in<lb/>
+               "several<add place="supralinear" hand="#PBS" rend="blackink"><del type="crossedOut" hand="#PBS" rend="blackink">studious</del> one</add> occupations that I did<lb/>
+               <add place="marginleft" hand="#PBS" rend="blackink">have</add>"not allow<add place="overwritten" hand="#PBS" rend="blackink">ed</add><add place="supralinear" hand="#MWS" rend="blackink">myself</add> sufficient rest as you<lb/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>
